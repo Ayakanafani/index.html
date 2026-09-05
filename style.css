@@ -1,0 +1,128 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** FORSIDE ****************/
+/*************** Body *******************/
+
+body {
+  background-color: blanchedalmond;
+  padding: 10px;
+  h1 {
+    /*************** Fonts *******************/
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-block: 0.9rem 0.8rem;
+  }
+
+  h2 {
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h3 {
+    margin-block: 0.8rem -0.5rem;
+  }
+
+  dt {
+    font-weight: bold;
+    color: rgb(43, 49, 226);
+  }
+
+  img {
+    margin-block: 1rem;
+  }
+
+  /************* Classes **********/
+
+  .computere {
+    color: rgb(225, 64, 237);
+  }
+  .underoverskrift {
+    color: rgb(225, 64, 237);
+  }
+  .personligcomputer {
+    margin-block: 1rem 0rem;
+  }
+
+  /************** KOMPONENTER ***************/
+
+  p {
+    margin-block: 0.8rem 0rem;
+  }
+
+  /************** Classes **************/
+  .komponenter {
+    color: darkolivegreen;
+  }
+
+  .køling {
+    color: darkolivegreen;
+  }
+
+  .motherboard {
+    color: darkolivegreen;
+  }
+
+  .luftkøling {
+    color: darkolivegreen;
+  }
+
+  .vandkøling {
+    color: darkolivegreen;
+  }
+
+  /****************** MIN COMPUTER ********************/
+
+  /****************** Classes ************************/
+
+  .mincomputer {
+    color: rgb(94, 57, 245);
+  }
+  .type {
+    color: rgb(94, 57, 245);
+  }
+  .specifikationer {
+    color: rgb(94, 57, 245);
+  }
+
+  /**************** OPERATIVSYSTEMER ****************/
+
+  /***************** Classes ********************/
+
+  .operativsystemer {
+    font-size: 2.25rem;
+    color: coral;
+  }
+  .mac {
+    font-size: 2rem;
+    color: coral;
+  }
+
+  .windows {
+    font-size: 2rem;
+    color: coral;
+  }
+
+  .tabletsogmobiler {
+    font-size: 2rem;
+    color: coral;
+  }
+
+  /****************** Footer *****************/
+  .lavetafaya {
+    margin-block: 2rem;
+  }
+}
